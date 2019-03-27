@@ -1,0 +1,13 @@
+[package]
+name = "gas_simulation"
+version = "0.1.0"
+authors = ["Shantanu Rahman <rahmanshantanu69@gmail.com>"]
+
+[dependencies]
+rand = "*"
+
+[dependencies.sdl2]
+git = "https://github.com/Rust-SDL2/rust-sdl2"
+version = "*"
+default-features = false
+features = ["image"]
